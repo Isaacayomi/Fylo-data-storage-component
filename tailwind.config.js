@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./build/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Raleway: ["Raleway"]
+      }
+    },
   },
   plugins: [],
 }
