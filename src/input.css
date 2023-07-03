@@ -9,3 +9,11 @@
     height:100vh;
     background-position:center;
 }
+
+.svg-icon{
+    background-color:hsl(229, 57%, 11%);
+}
+
+.upper-section{
+    background-color:hsl(228, 56%, 26%);
+}
