@@ -14,10 +14,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Frontend Mentor | Fylo data storage component</title>
+    <style>
+        input[type="range"] {
+    -webkit-slider-runnable-track {
+      background-color: #FF0000;
+    }
+    background-color:#00ff00;
+}
+    </style>
 </head>
 
 <body class="font-Raleway main-bg max-h-full grid place-content-center text-[14px]">
-    <section class="upper-section w-[90%] m-auto h-[11.2rem] rounded-tl-[1rem] rounded-tr-[5rem] rounded-b-[1rem] px-[2.3rem] py-[1.3rem]">
+    <section class="section-bg w-[90%] m-auto h-[11.2rem] rounded-tl-[0.6rem] rounded-tr-[5rem] rounded-b-[0.6rem] px-[2.3rem] py-[1.3rem]">
         <img src="/build/images/logo.svg" alt="fylo-logo" class="block h-auto w-[7.6rem] mb-[1.8rem] mt-[0.8rem]">
 
         <div class="flex items-center gap-[0.9rem] mt-[0.2rem]">
@@ -35,16 +43,21 @@
         </div>
     </section>
 
-    <section>
+    <section class="section-bg w-[90%] mx-auto h-[8rem] mt-[1rem] rounded-[0.5rem]">
+        <p class="text-center pt-[1.8rem] text-[#dddbff]">You’ve used <span class="font-bold">815 GB</span> of your storage</p>
+        <form>
+            <div class="bg-[#0c122c] w-[80%] mx-auto rounded-xl p-[0.2rem]">
+                <input type="range" name="range" id="range" max="100" value="80" class="w-[90%] block m-auto p-[0.3rem] range">
+            </div>
+        </form>
 
+        <!-- 185 GB Left
+    
+        0 GB
+        1000 GB -->
     </section>
 
-    You’ve used 815 GB of your storage
-
-    185 GB Left
-
-    0 GB
-    1000 GB
+   
 
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
