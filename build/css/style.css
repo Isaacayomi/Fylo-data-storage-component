@@ -522,6 +522,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.grid {
+  display: grid;
+}
+
+.max-h-full {
+  max-height: 100%;
+}
+
+.place-content-center {
+  place-content: center;
+}
+
 .font-Raleway {
   font-family: Raleway;
+}
+
+.main-bg{
+  background-image:url(/build/images/bg-mobile.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-position:center;
 }
