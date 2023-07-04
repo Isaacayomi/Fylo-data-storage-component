@@ -14,18 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Frontend Mentor | Fylo data storage component</title>
-    <style>
-        input[type="range"] {
-    -webkit-slider-runnable-track {
-      background-color: #FF0000;
-    }
-    background-color:#00ff00;
-}
-    </style>
 </head>
 
 <body class="font-Raleway main-bg max-h-full grid place-content-center text-[14px]">
-    <section class="section-bg w-[90%] m-auto h-[11.2rem] rounded-tl-[0.6rem] rounded-tr-[5rem] rounded-b-[0.6rem] px-[2.3rem] py-[1.3rem]">
+    <section
+        class="section-bg w-[90%] m-auto h-[11.2rem] rounded-tl-[0.6rem] rounded-tr-[5rem] rounded-b-[0.6rem] px-[2.3rem] py-[1.3rem]">
         <img src="/build/images/logo.svg" alt="fylo-logo" class="block h-auto w-[7.6rem] mb-[1.8rem] mt-[0.8rem]">
 
         <div class="flex items-center gap-[0.9rem] mt-[0.2rem]">
@@ -36,7 +29,7 @@
             <div class="px-[0.75rem] py-[0.75rem] svg-icon rounded-xl">
                 <img src="/build/images/icon-folder.svg" alt="folder-icon">
             </div>
-           
+
             <div class="px-[0.73rem] py-[0.85rem] svg-icon rounded-xl">
                 <img src="/build/images/icon-upload.svg" alt="upload-icon">
             </div>
@@ -44,10 +37,12 @@
     </section>
 
     <section class="section-bg w-[90%] mx-auto h-[8rem] mt-[1rem] rounded-[0.5rem]">
-        <p class="text-center pt-[1.8rem] text-[#dddbff]">You’ve used <span class="font-bold">815 GB</span> of your storage</p>
+        <p class="text-center pt-[1.8rem] text-[#dddbff]">You’ve used <span class="font-bold">815 GB</span> of your
+            storage</p>
         <form>
-            <div class="bg-[#0c122c] w-[80%] mx-auto rounded-xl p-[0.2rem]">
-                <input type="range" name="range" id="range" max="100" value="80" class="w-[90%] block m-auto p-[0.3rem] range">
+            <div class="bg-[#0c122c] w-[80%] mx-auto rounded-xl p-[0.1rem]">
+                <input type="range" name="range" id="range" min ="0" max="1000" value="800" disabled
+                    class="w-[90%] block m-auto p-[0.3rem] range-field">
             </div>
         </form>
 
@@ -57,7 +52,9 @@
         1000 GB -->
     </section>
 
-   
+
+
+
 
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
