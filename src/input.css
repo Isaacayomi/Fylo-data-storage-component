@@ -10,6 +10,15 @@
     background-position:center;
 }
 
+.desktop-bg{
+    background-image:url('/build/images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position:bottom center;
+    height:100vh;
+    background-size:cover;
+    background-color:hsl(229, 57%, 11%);
+}
+
 .svg-icon{
     background-color:hsl(229, 57%, 11%);
 }
@@ -39,10 +48,9 @@
     height:13px;
     border-radius:50%;
     background:white;
-    margin-left:3rem;
+    margin-left:3.1rem;
     /* color:#848794; */
     /* margin-bottom:0.3rem; */
     /* box-shadow:-410px 0 0 400px hsl(335, 100%, 65%); */
     cursor:pointer;
 }
-/* linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%)) */
