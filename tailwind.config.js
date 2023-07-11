@@ -7,7 +7,7 @@ module.exports = {
         Raleway: ["Raleway"]
       }
     },
-  },
+  },  
   plugins: [],
 }
 
