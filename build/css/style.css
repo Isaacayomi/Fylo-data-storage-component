@@ -801,13 +801,14 @@ video {
   background-position:center;
 }
 
-.desktop-bg{
-  background-image:url('/build/images/bg-desktop.png');
-  background-repeat: no-repeat;
-  background-position:bottom center;
-  height:100vh;
-  background-size:cover;
-  background-color:hsl(229, 57%, 11%);
+@media screen and (min-width:768px) {
+  .main-bg{
+    background-image:url('/build/images/bg-desktop.png');
+    background-repeat: no-repeat;
+    background-position:bottom center;
+    background-size:contain;
+    background-color:hsl(229, 57%, 11%);
+  }
 }
 
 .svg-icon{
@@ -828,7 +829,6 @@ video {
   background-image:linear-gradient(to right, hsl(6, 100%, 80%),hsl(335, 100%, 65%));
   width:70%;
   margin-left:0;
-  /* box-shadow: inset 0 0 5px rgba(0,0,0,1); */
   overflow:hidden;
 }
 
@@ -840,8 +840,5 @@ video {
   border-radius:50%;
   background:white;
   margin-left:3.1rem;
-  /* color:#848794; */
-  /* margin-bottom:0.3rem; */
-  /* box-shadow:-410px 0 0 400px hsl(335, 100%, 65%); */
   cursor:pointer;
 }
