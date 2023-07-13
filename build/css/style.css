@@ -544,6 +544,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.ml-\[-7rem\] {
+  margin-left: -7rem;
+}
+
 .mt-\[0\.2rem\] {
   margin-top: 0.2rem;
 }
@@ -808,6 +812,7 @@ video {
     background-position:bottom center;
     background-size:contain;
     background-color:hsl(229, 57%, 11%);
+    height:500vh 90vh;
   }
 }
 
@@ -841,4 +846,51 @@ video {
   background:white;
   margin-left:3.1rem;
   cursor:pointer;
+}
+
+@media (min-width: 768px) {
+  .md\:mt-\[2\.5rem\] {
+    margin-top: 2.5rem;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-\[10\.5rem\] {
+    height: 10.5rem;
+  }
+
+  .md\:h-\[7\.9rem\] {
+    height: 7.9rem;
+  }
+
+  .md\:w-\[20rem\] {
+    width: 20rem;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:gap-\[1\.2rem\] {
+    gap: 1.2rem;
+  }
+
+  .md\:px-\[7rem\] {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .md\:pr-\[2\.5rem\] {
+    padding-right: 2.5rem;
+  }
+
+  .md\:tracking-\[0\.06rem\] {
+    letter-spacing: 0.06rem;
+  }
 }

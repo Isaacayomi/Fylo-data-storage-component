@@ -17,10 +17,9 @@
         background-position:bottom center;
         background-size:contain;
         background-color:hsl(229, 57%, 11%);
+        height:500vh 90vh;
     }  
 }
-
-
 
 .svg-icon{
     background-color:hsl(229, 57%, 11%);
