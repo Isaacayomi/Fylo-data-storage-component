@@ -10,25 +10,6 @@
     background-position:center;
 }
 
-@media screen and (min-width:768px) {
-    .main-bg{
-        background-image:url('/build/images/bg-desktop.png');
-        background-repeat: no-repeat;
-        background-position:bottom center;
-        background-size:contain;
-        background-color:hsl(229, 57%, 11%);
-        height:500vh 90vh;
-    }  
-}
-
-.svg-icon{
-    background-color:hsl(229, 57%, 11%);
-}
-
-.section-bg{
-    background-color:hsl(228, 56%, 26%);
-}
-
 .range-field{
     -webkit-appearance: none;
     appearance: none;
@@ -52,3 +33,29 @@
     margin-left:3.1rem;
     cursor:pointer;
 }
+
+@media screen and (min-width:768px) {
+    .main-bg{
+        background-image:url('/build/images/bg-desktop.png');
+        background-repeat: no-repeat;
+        background-position:bottom center;
+        background-size:contain;
+        background-color:hsl(229, 57%, 11%);
+        height:500vh 90vh;
+    }  
+}
+
+.svg-icon{
+    background-color:hsl(229, 57%, 11%);
+}
+
+.section-bg{
+    background-color:hsl(228, 56%, 26%);
+}
+
+.range-field::-webkit-slider-thumb{
+    background:white;
+    margin-left:2.25rem;
+    cursor:pointer;
+}
+
